@@ -1,0 +1,8 @@
+{
+  "asset_id": "durtleminer:rebellion",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.durtleminer.rebellion"
+  },
+  "template_item": "durtleminer:rebellion_armor_trim_smithing_template"
+}

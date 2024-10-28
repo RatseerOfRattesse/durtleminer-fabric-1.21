@@ -1,0 +1,8 @@
+{
+  "asset_id": "durtleminer:naivety",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.durtleminer.naivety"
+  },
+  "template_item": "durtleminer:naivety_armor_trim_smithing_template"
+}

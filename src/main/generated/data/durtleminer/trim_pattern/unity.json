@@ -1,0 +1,8 @@
+{
+  "asset_id": "durtleminer:unity",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.durtleminer.unity"
+  },
+  "template_item": "durtleminer:unity_armor_trim_smithing_template"
+}

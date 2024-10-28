@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "D",
+    "D"
+  ],
+  "key": {
+    "D": {
+      "item": "durtleminer:dark_purpur_slab"
+    }
+  },
+  "result": {
+    "id": "durtleminer:dark_purpur_pillar",
+    "count": 1
+  }
+}

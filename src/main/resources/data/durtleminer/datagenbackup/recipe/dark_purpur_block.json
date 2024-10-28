@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DP",
+    "PD"
+  ],
+  "key": {
+    "D": [
+      {
+        "item": "minecraft:black_dye"
+      },
+      {
+        "item": "minecraft:ink_sac"
+      }
+    ],
+    "P": {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  },
+  "result": {
+    "id": "durtleminer:dark_purpur_block",
+    "count": 1
+  }
+}

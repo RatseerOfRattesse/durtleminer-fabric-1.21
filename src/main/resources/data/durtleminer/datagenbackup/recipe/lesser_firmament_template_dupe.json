@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DTD",
+    "DED",
+    "DDD"
+  ],
+  "key": {
+    "T": {
+      "item": "durtleminer:lesser_firmament_template"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "id": "durtleminer:lesser_firmament_template",
+    "count": 2
+  }
+}

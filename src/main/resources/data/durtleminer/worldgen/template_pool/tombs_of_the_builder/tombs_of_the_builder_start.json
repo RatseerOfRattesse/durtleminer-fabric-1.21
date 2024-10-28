@@ -1,0 +1,16 @@
+{
+  "name": "durtleminer:tombs_of_the_builder/tombs_of_the_builder_start",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "durtleminer:tombs_of_the_builder/ruins_of_battle",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

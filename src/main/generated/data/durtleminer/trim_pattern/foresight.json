@@ -1,0 +1,8 @@
+{
+  "asset_id": "durtleminer:foresight",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.durtleminer.foresight"
+  },
+  "template_item": "durtleminer:foresight_armor_trim_smithing_template"
+}

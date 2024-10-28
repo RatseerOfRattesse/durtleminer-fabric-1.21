@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 41553223,
+    "separation": 32,
+    "spacing": 34
+  },
+  "structures": [
+    {
+      "structure": "durtleminer:tombs_of_the_builder",
+      "weight": 1
+    }
+  ]
+}

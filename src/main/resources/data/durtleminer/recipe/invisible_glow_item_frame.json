@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glow_item_frame"
+    }
+  ],
+  "result": {
+    "id": "minecraft:glow_item_frame",
+    "components": {
+      "entity_data":{"id":"item_frame","Invisible":true},
+      "minecraft:item_name": "{\"text\":\"Invisible Glow Item Frame\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Will revert back to regular frame if placed and broken\",\"italic\":false,\"color\":\"gray\"}"
+      ]
+    }
+  }
+}

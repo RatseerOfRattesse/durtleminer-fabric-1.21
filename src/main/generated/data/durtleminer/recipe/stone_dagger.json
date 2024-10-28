@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    "W",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "durtleminer:stone_dagger"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "ominous=false,ender_trial_spawner_state=active": {
+      "model": "durtleminer:block/ender_trial_spawner_active"
+    },
+    "ominous=false,ender_trial_spawner_state=cooldown": {
+      "model": "durtleminer:block/ender_trial_spawner"
+    },
+    "ominous=false,ender_trial_spawner_state=ejecting_reward": {
+      "model": "durtleminer:block/ender_trial_spawner_ejecting_reward"
+    },
+    "ominous=false,ender_trial_spawner_state=inactive": {
+      "model": "durtleminer:block/ender_trial_spawner"
+    },
+    "ominous=false,ender_trial_spawner_state=waiting_for_players": {
+      "model": "durtleminer:block/ender_trial_spawner_active"
+    },
+    "ominous=false,ender_trial_spawner_state=waiting_for_reward_ejection": {
+      "model": "durtleminer:block/ender_trial_spawner_active"
+    },
+    "ominous=true,ender_trial_spawner_state=active": {
+      "model": "durtleminer:block/ender_trial_spawner_active_ominous"
+    },
+    "ominous=true,ender_trial_spawner_state=cooldown": {
+      "model": "durtleminer:block/ender_trial_spawner_inactive_ominous"
+    },
+    "ominous=true,ender_trial_spawner_state=ejecting_reward": {
+      "model": "durtleminer:block/ender_trial_spawner_ejecting_reward_ominous"
+    },
+    "ominous=true,ender_trial_spawner_state=inactive": {
+      "model": "durtleminer:block/ender_trial_spawner_inactive_ominous"
+    },
+    "ominous=true,ender_trial_spawner_state=waiting_for_players": {
+      "model": "durtleminer:block/ender_trial_spawner_active_ominous"
+    },
+    "ominous=true,ender_trial_spawner_state=waiting_for_reward_ejection": {
+      "model": "durtleminer:block/ender_trial_spawner_active_ominous"
+    }
+  }
+}

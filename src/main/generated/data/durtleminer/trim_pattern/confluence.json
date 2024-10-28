@@ -1,0 +1,8 @@
+{
+  "asset_id": "durtleminer:confluence",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.durtleminer.confluence"
+  },
+  "template_item": "durtleminer:confluence_armor_trim_smithing_template"
+}

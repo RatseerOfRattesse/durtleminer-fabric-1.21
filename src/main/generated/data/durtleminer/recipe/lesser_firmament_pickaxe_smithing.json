@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "durtleminer:lesser_firmament_amalgam"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "durtleminer:lesser_firmament_pickaxe"
+  },
+  "template": {
+    "item": "durtleminer:lesser_firmament_template"
+  }
+}

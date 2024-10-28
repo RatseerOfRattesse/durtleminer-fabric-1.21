@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_vault",
+  "textures": {
+    "bottom": "durtleminer:block/ender_vault_bottom_ominous",
+    "front": "durtleminer:block/ender_vault_front_off_ominous",
+    "side": "durtleminer:block/ender_vault_side_off_ominous",
+    "top": "durtleminer:block/ender_vault_top_ominous"
+  }
+}

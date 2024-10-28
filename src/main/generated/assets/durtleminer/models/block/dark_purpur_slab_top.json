@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "durtleminer:block/dark_purpur_block",
+    "side": "durtleminer:block/dark_purpur_block",
+    "top": "durtleminer:block/dark_purpur_block"
+  }
+}

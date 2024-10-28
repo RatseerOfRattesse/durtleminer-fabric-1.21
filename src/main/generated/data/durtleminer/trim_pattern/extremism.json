@@ -1,0 +1,8 @@
+{
+  "asset_id": "durtleminer:extremism",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.durtleminer.extremism"
+  },
+  "template_item": "durtleminer:extremism_armor_trim_smithing_template"
+}

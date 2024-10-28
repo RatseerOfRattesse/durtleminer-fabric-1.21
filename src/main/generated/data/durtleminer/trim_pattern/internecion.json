@@ -1,0 +1,8 @@
+{
+  "asset_id": "durtleminer:internecion",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.durtleminer.internecion"
+  },
+  "template_item": "durtleminer:internecion_armor_trim_smithing_template"
+}

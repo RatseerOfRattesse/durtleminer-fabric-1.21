@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 10.0,
+  "group": "lesser_firmament",
+  "ingredient": {
+    "item": "durtleminer:lesser_firmament_template"
+  },
+  "result": {
+    "id": "durtleminer:lesser_firmament_amalgam"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top_inner_faces",
+  "textures": {
+    "bottom": "durtleminer:block/ender_trial_spawner_bottom",
+    "side": "durtleminer:block/ender_trial_spawner_side_inactive_ominous",
+    "top": "durtleminer:block/ender_trial_spawner_top_inactive_ominous"
+  }
+}

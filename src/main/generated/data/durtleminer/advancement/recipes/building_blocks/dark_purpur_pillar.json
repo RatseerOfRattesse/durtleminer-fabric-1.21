@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_purpur_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "durtleminer:dark_purpur_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "durtleminer:dark_purpur_pillar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dark_purpur_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "durtleminer:dark_purpur_pillar"
+    ]
+  }
+}
