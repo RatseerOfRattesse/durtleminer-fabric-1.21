@@ -128,7 +128,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
-        offerNetheriteUpgradeRecipe(exporter, ModItems.DIAMOND_DAGGER, RecipeCategory.COMBAT, ModItems.NETHERITE_DAGGER);
+        offerNetheriteUpgradeRecipe(exporter, ModItems.DIAMOND_DAGGER, RecipeCategory.COMBAT, ModItems.SHATTERED_DAGGER);
 
 
         //SoW Trims
@@ -148,6 +148,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmithingTemplateCopyingRecipe(exporter, ModItems.REBELLION_SMITHING_TEMPLATE, Blocks.BLUE_ICE);
         offerSmithingTemplateCopyingRecipe(exporter, ModItems.UNITY_SMITHING_TEMPLATE, Items.BREEZE_ROD);
 
+
+
+        //Shattered Gear
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_SWORD, RecipeCategory.COMBAT, Items.NETHERITE_SWORD);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_DAGGER, RecipeCategory.COMBAT, ModItems.NETHERITE_DAGGER);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_PICKAXE, RecipeCategory.TOOLS, Items.NETHERITE_PICKAXE);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_AXE, RecipeCategory.TOOLS, Items.NETHERITE_AXE);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_SHOVEL, RecipeCategory.TOOLS, Items.NETHERITE_SHOVEL);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_HOE, RecipeCategory.TOOLS, Items.NETHERITE_HOE);
+
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_HELMET, RecipeCategory.COMBAT, Items.NETHERITE_HELMET);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_CHESTPLATE, RecipeCategory.COMBAT, Items.NETHERITE_CHESTPLATE);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_LEGGINGS, RecipeCategory.COMBAT, Items.NETHERITE_LEGGINGS);
+        offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_BOOTS, RecipeCategory.COMBAT, Items.NETHERITE_BOOTS);
+
     }
 
 
@@ -160,6 +175,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 )
                 .criterion(hasItem(ModItems.LESSER_FIRMAMENT_AMALGAM), conditionsFromItem(ModItems.LESSER_FIRMAMENT_AMALGAM))
                 .offerTo(exporter, getItemPath(result) + "_smithing");
+    }
+
+    //Template for upgrade via Nether Star to Netherite
+    public static void offerNetherStarUpgradeRecipe(RecipeExporter exporter, Item input, RecipeCategory category, Item result) {
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(input), Ingredient.ofItems(Items.NETHER_STAR), category, result
+                )
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                .offerTo(exporter, getItemPath(result) + "_fixing_smithing");
     }
 
     //Template for dagger recipes

@@ -48,6 +48,18 @@
   "item.durtleminer.dominance_armor_trim_smithing_template": "Smithing Template",
   "item.durtleminer.command_armor_trim_smithing_template": "Smithing Template",
 
+  "item.durtleminer.shattered_sword": "Shattered Sword",
+  "item.durtleminer.shattered_dagger": "Shattered Dagger",
+  "item.durtleminer.shattered_pickaxe": "Shattered Pickaxe",
+  "item.durtleminer.shattered_shovel": "Shattered Shovel",
+  "item.durtleminer.shattered_axe": "Shattered Axe",
+  "item.durtleminer.shattered_hoe": "Shattered Hoe",
+
+  "item.durtleminer.shattered_helmet": "Shattered Helmet",
+  "item.durtleminer.shattered_chestplate": "Shattered Chestplate",
+  "item.durtleminer.shattered_leggings": "Shattered Leggings",
+  "item.durtleminer.shattered_boots": "Shattered Boots",
+
 
   "jukebox_song.durtleminer.hez_happy_music": "Smileydude23- Hez Happy Music",
 
@@ -68,6 +80,14 @@
   "painting.durtleminer.campfire_cuddles.title": "Campfire Cuddles",
 
 
+
+  "tag.item.durtleminer.daggers": "Daggers",
+  "tag.item.durtleminer.lesser_firmament": "Lesser Firmament",
+  "tag.item.durtleminer.mysterious_keys": "Mysterious Keys",
+  "tag.item.durtleminer.trial_keys": "Trial Keys",
+
+
+
   "tooltip.durtleminer.lesser_firmament_pickaxe": "§7Hold Shift",
   "tooltip.durtleminer.lesser_firmament_pickaxe.shift_down": "§bThis pickaxe can instamine most stone-based blocks",
   "tooltip.durtleminer.lesser_firmament_template": "§7An amalgamation of firmamental energies, contained inside a construct.",
@@ -80,6 +100,9 @@
 
   "tooltip.durtleminer.mrfinchs_hoe": "§7Hold Shift",
   "tooltip.durtleminer.mrfinchs_hoe.shift_down": "§bThis hoe can bonemeal crops and saplings",
+
+  "tooltip.durtleminer.shattered": "§7This item was shattered when overpowered material was applied to it.",
+  "tooltip.durtleminer.shattered2": "§7It can be repaired in a smithing table with a §aNether Star§7.",
 
   "trim_pattern.durtleminer.internecion": "Internecion Armor Trim",
   "trim_pattern.durtleminer.confluence": "Confluence Armor Trim",

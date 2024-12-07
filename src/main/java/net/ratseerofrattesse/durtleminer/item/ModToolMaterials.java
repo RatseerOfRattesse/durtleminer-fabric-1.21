@@ -2,7 +2,7 @@ package net.ratseerofrattesse.durtleminer.item;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.block.Block;
-import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.TagKey;
@@ -12,10 +12,13 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
+
     //Lesser Firmament
-    LESSER_FIRMAMENT(ModTags.Blocks.INCORRECT_FOR_LESSER_FIRMAMENT_TOOL, 3000, 90.0F, 2.0F, 15, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{ModItems.LESSER_FIRMAMENT_AMALGAM});
-    });
+    LESSER_FIRMAMENT(ModTags.Blocks.INCORRECT_FOR_LESSER_FIRMAMENT_TOOL, 3000, 90.0F, 2.0F, 15, () -> Ingredient.ofItems(ModItems.LESSER_FIRMAMENT_AMALGAM)),
+    //Shattered
+    SHATTERED(ModTags.Blocks.INCORRECT_FOR_SHATTERED_TOOL, 2031, 0.0F, 0.0F, 0, () -> Ingredient.ofItems(Items.DIAMOND));
+
+
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

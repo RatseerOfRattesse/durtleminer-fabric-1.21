@@ -4,11 +4,11 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "durtleminer:diamond_dagger"
+    "item": "minecraft:diamond_helmet"
   },
   "result": {
     "count": 1,
-    "id": "durtleminer:netherite_dagger"
+    "id": "durtleminer:shattered_helmet"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

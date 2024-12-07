@@ -5,7 +5,7 @@
   "spawn_overrides": {},
   "terrain_adaptation": "encapsulate",
   "start_pool": "durtleminer:tombs_of_the_builder/tombs_of_the_builder_start",
-  "size": 10,
+  "size": 6,
   "start_height": {
     "type": "minecraft:uniform",
     "max_inclusive": {

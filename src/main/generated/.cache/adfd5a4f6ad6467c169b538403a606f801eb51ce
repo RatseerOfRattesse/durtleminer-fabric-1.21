@@ -1,10 +1,14 @@
-// 1.21	2024-10-27T20:16:46.9091786	Durtleminer/Tags for minecraft:item
-9687959257a809251d50c0b798a0f49becacf0f6 data\minecraft\tags\item\hoes.json
-e49a1982694fa5410c7339a1bb352788b80979b5 data\durtleminer\tags\item\daggers.json
-34bcffcfeac9e36b8c17efacf54b6de157041a89 data\minecraft\tags\item\pickaxes.json
-f986bb1b76170f3a141643105fe02d28289a3d27 data\minecraft\tags\item\creeper_drop_music_discs.json
+// 1.21	2024-12-06T18:37:42.5662754	Durtleminer/Tags for minecraft:item
+c55159f86e6d31d26a1dd5df9ea5b8bfb3faf199 data\minecraft\tags\item\hoes.json
+d165f39b190952411feed70f182fd40bb9186ad4 data\durtleminer\tags\item\daggers.json
 6f4d93daed5e7b3163680c5e0bf767eaeeeae6da data\minecraft\tags\item\planks.json
+3ecbeaeb91debf86e7865030d02ff039ddef8548 data\minecraft\tags\item\axes.json
+e7fe83d16c1b2efd8ea79309a440b094c0833dd2 data\minecraft\tags\item\trimmable_armor.json
+c4d35e1963b176132f977ff5e992bc7130ff6b00 data\minecraft\tags\item\pickaxes.json
+f986bb1b76170f3a141643105fe02d28289a3d27 data\minecraft\tags\item\creeper_drop_music_discs.json
+c1beb9d9bd0a9db3f59e30b4b0fcf561958f3389 data\minecraft\tags\item\shovels.json
 629bdf7cdfdc88558add3fef2faec5e95280a103 data\durtleminer\tags\item\trial_keys.json
+91590f17280cefca6512897f195317a96a053eb6 data\minecraft\tags\item\swords.json
 2870541fdf4814dcd16d5a80421448f21a068155 data\durtleminer\tags\item\lesser_firmament.json
 0654eb5ca3e9533b826d9a61e97cdb67cb01270e data\durtleminer\tags\item\mysterious_keys.json
 204a5475ae71037e6abaabfab86941873c8b6ab2 data\minecraft\tags\item\trim_templates.json

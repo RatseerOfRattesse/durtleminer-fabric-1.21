@@ -15,15 +15,6 @@ import net.ratseerofrattesse.durtleminer.Durtleminer;
 
 public class ModBlocks {
 
-    //public static final Block ENDER_TRIAL_SPAWNER = registerBlock((String)"trial_spawner", new TrialSpawnerBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).instrument(NoteBlockInstrument.BASEDRUM).luminance((state) -> {
-    //    return ((TrialSpawnerState)state.get(TrialSpawnerBlock.TRIAL_SPAWNER_STATE)).getLuminance();
-    //}).strength(50.0F).sounds(BlockSoundGroup.TRIAL_SPAWNER).blockVision(Blocks::never).nonOpaque()));
-    //public static final Block ENDER_VAULT = registerBlock((String)"vault", new VaultBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).instrument(NoteBlockInstrument.BASEDRUM).nonOpaque().sounds(BlockSoundGroup.VAULT).luminance((state) -> {
-    //    return ((VaultState)state.get(VaultBlock.VAULT_STATE)).getLuminance();
-    //}).strength(50.0F).blockVision(Blocks::never)));
-
-
-
     //Dark purpur
     public static final Block DARK_PURPUR_BLOCK = registerBlock("dark_purpur_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));

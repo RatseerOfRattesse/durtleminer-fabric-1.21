@@ -128,6 +128,108 @@ public class ModItems {
                 }
             });
 
+    //Shattered Gear
+    public static final Item SHATTERED_SWORD = registerItem("shattered_sword",
+            new SwordItem(ModToolMaterials.SHATTERED, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SHATTERED, 0, -1.6f))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_DAGGER = registerItem("shattered_dagger",
+            new SwordItem(ModToolMaterials.SHATTERED, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SHATTERED, 0, -1.6f))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_PICKAXE = registerItem("shattered_pickaxe",
+            new PickaxeItem(ModToolMaterials.SHATTERED, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SHATTERED, 0, -1.6f))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_AXE = registerItem("shattered_axe",
+            new AxeItem(ModToolMaterials.SHATTERED, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SHATTERED, 0, -1.6f))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_SHOVEL = registerItem("shattered_shovel",
+            new ShovelItem(ModToolMaterials.SHATTERED, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.SHATTERED, 0, -1.6f))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_HOE = registerItem("shattered_hoe",
+            new HoeItem(ModToolMaterials.SHATTERED, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SHATTERED, 0, -1.6f))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_HELMET = registerItem("shattered_helmet",
+            new ArmorItem(ModArmorMaterials.SHATTERED_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_CHESTPLATE = registerItem("shattered_chestplate",
+            new ArmorItem(ModArmorMaterials.SHATTERED_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_LEGGINGS = registerItem("shattered_leggings",
+            new ArmorItem(ModArmorMaterials.SHATTERED_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+    public static final Item SHATTERED_BOOTS = registerItem("shattered_boots",
+            new ArmorItem(ModArmorMaterials.SHATTERED_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered"));
+                    tooltip.add(Text.translatable("tooltip.durtleminer.shattered2"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Durtleminer.MOD_ID, name), item);
@@ -161,6 +263,16 @@ public class ModItems {
             entries.add(DIAMOND_DAGGER);
             entries.add(GOLD_DAGGER);
             entries.add(NETHERITE_DAGGER);
+            entries.add(SHATTERED_SWORD);
+            entries.add(SHATTERED_DAGGER);
+            entries.add(SHATTERED_PICKAXE);
+            entries.add(SHATTERED_AXE);
+            entries.add(SHATTERED_SHOVEL);
+            entries.add(SHATTERED_HOE);
+            entries.add(SHATTERED_HELMET);
+            entries.add(SHATTERED_CHESTPLATE);
+            entries.add(SHATTERED_LEGGINGS);
+            entries.add(SHATTERED_BOOTS);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(MUSIC_DISC_HEZ_HAPPY_MUSIC);

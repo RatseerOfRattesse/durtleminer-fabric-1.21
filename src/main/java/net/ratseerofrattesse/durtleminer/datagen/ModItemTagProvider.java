@@ -42,7 +42,31 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         //Pickaxes
         getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.LESSER_FIRMAMENT_PICKAXE);
+                .add(ModItems.LESSER_FIRMAMENT_PICKAXE)
+                .add(ModItems.SHATTERED_PICKAXE);
+
+        //Swords
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.SHATTERED_SWORD);
+
+        //Shovels
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.SHATTERED_SHOVEL);
+
+        //Axes
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.SHATTERED_AXE);
+
+        //Hoes
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.SHATTERED_HOE);
+
+        //Trimmable Armor
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.SHATTERED_HELMET)
+                .add(ModItems.SHATTERED_CHESTPLATE)
+                .add(ModItems.SHATTERED_LEGGINGS)
+                .add(ModItems.SHATTERED_BOOTS);
 
         //Lesser Firmament
         getOrCreateTagBuilder(ModTags.Items.LESSER_FIRMAMENT)
@@ -69,6 +93,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GOLD_DAGGER)
                 .add(ModItems.DIAMOND_DAGGER)
                 .add(ModItems.NETHERITE_DAGGER)
+                .add(ModItems.SHATTERED_DAGGER)
                 .add(ModItems.STONE_DAGGER);
     }
 }

@@ -7,6 +7,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.client.TexturedModel;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Items;
 import net.ratseerofrattesse.durtleminer.block.ModBlocks;
 import net.ratseerofrattesse.durtleminer.item.ModItems;
@@ -74,5 +75,18 @@ public class ModModelProvider extends FabricModelProvider {
 
         //Mr. Finch's Hoe
         itemModelGenerator.register(ModItems.MRFINCHS_HOE, Models.HANDHELD);
+
+        //Shattered Items
+        itemModelGenerator.register(ModItems.SHATTERED_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHATTERED_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHATTERED_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHATTERED_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHATTERED_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHATTERED_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHATTERED_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHATTERED_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHATTERED_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHATTERED_BOOTS));
     }
 }

@@ -11,6 +11,8 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_LESSER_FIRMAMENT_TOOL = createTag("needs_lesser_firmament_tool");
         public static final TagKey<Block> INCORRECT_FOR_LESSER_FIRMAMENT_TOOL = createTag("incorrect_for_lesser_firmament_tool");
+        public static final TagKey<Block> NEEDS_SHATTERED_TOOL = createTag("needs_shattered_tool");
+        public static final TagKey<Block> INCORRECT_FOR_SHATTERED_TOOL = createTag("incorrect_for_shattered_tool");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(Durtleminer.MOD_ID, name));
