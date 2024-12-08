@@ -1,4 +1,4 @@
-// 1.21	2024-12-06T18:37:42.56123	Durtleminer/Model Definitions
+// 1.21	2024-12-08T15:17:44.0817537	Durtleminer/Model Definitions
 88f2fc5152d5c0add0a6ff34f9ba9b2cc535694e assets\durtleminer\models\item\shattered_boots_copper_trim.json
 0a4423f1dcb612ce1e6c834e909d261fedc65e6d assets\durtleminer\models\item\shattered_leggings_diamond_trim.json
 fbe6f2b102a2838c77d36f5be2ad52de08eacaa1 assets\durtleminer\blockstates\dark_purpur_slab.json
@@ -106,8 +106,8 @@ b9a580986a787f39df3784bbfb73f2227539184c assets\durtleminer\models\item\dark_pur
 a0a4c5f2a4e54a06abfa0c0ace1e4b03b1b006dc assets\durtleminer\models\item\shattered_boots_lapis_trim.json
 2a5b93ba16bd9a0f8e9a9b2ac35bd8bf4d7a3a2a assets\durtleminer\blockstates\chorus_button.json
 79f65f7fe4ea6138abb31362863c0d8206d3e2c3 assets\durtleminer\models\block\chorus_door_bottom_right.json
-b3e963975c43923f1fb7ad5a55b8fec2569c467d assets\durtleminer\models\item\shattered_leggings_lapis_trim.json
 b431f9bf059c46ce3c8659d0189656992cc0de23 assets\durtleminer\models\item\shattered_chestplate.json
+b3e963975c43923f1fb7ad5a55b8fec2569c467d assets\durtleminer\models\item\shattered_leggings_lapis_trim.json
 9d6a0af71d2d56d62aba093724da5dcfb4318539 assets\durtleminer\models\item\iron_dagger.json
 157241c75123aa0ebd022a0c7102208a316493f4 assets\durtleminer\models\item\ender_trial_key.json
 32b434869a100f19bd56635ab4fa9bd556165211 assets\durtleminer\blockstates\chorus_pressure_plate.json

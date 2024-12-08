@@ -18,6 +18,8 @@ public class DurtleminerDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModRegistryDataGenerator::new);
+		pack.addProvider(ModEnglishUSLanguageProvider::new);
+		pack.addProvider(ModEnglishCALanguageProvider::new);
 
 	}
 

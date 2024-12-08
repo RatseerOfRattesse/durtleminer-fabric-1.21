@@ -1,0 +1,14 @@
+{
+  "item.goat_horn.sound.8": {
+    "sounds": [
+      "item/goat_horn/call8"
+    ],
+    "subtitle": "subtitles.item.goat_horn.play"
+  },
+  "item.goat_horn.sound.9": {
+    "sounds": [
+      "item/goat_horn/call9"
+    ],
+    "subtitle": "subtitles.item.goat_horn.play"
+  }
+}

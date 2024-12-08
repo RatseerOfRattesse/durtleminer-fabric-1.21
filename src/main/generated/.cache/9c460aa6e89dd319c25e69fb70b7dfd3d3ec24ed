@@ -1,4 +1,4 @@
-// 1.21	2024-12-06T18:37:42.5517981	Durtleminer/Recipes
+// 1.21	2024-12-08T15:17:44.0737128	Durtleminer/Recipes
 b08da9e9ae5801177316c9176c2621a5156e83a3 data\durtleminer\advancement\recipes\tools\lesser_firmament_pickaxe_smithing.json
 4d4a3ef7598a9af6c81b133bc49d96c4ab3ef929 data\durtleminer\recipe\extremism.json
 e288f6842fb06f4369417213421e4313e0d9b83e data\durtleminer\recipe\chorus_stairs.json
@@ -43,6 +43,7 @@ dde632dcf14f980258393acfe388dbd7de85925d data\durtleminer\advancement\recipes\re
 3d9f5e00fb8bda5c4e8991147134548285205d5d data\durtleminer\recipe\confluence.json
 51a86583b296d6fecb416744e581752d3dcb343f data\durtleminer\advancement\recipes\misc\rebellion_armor_trim_smithing_template.json
 a513d761df7f90bba87d0bc904793e60823feaab data\durtleminer\recipe\shattered_dagger_smithing.json
+81f66c6466e0ec5201e0c3bab79304247c90eaa7 data\durtleminer\recipe\hez_happy_music.json
 f0f778f37d168d071f6c7bd0f503a62203988c6f data\durtleminer\recipe\netherite_pickaxe_fixing_smithing.json
 8e5e528fb2000e71dcc7e6d698cd2fff5e00afe6 data\durtleminer\recipe\dark_purpur_slab_from_dark_purpur_block_stonecutting.json
 9e4c15cb4e9f8e5228424756e9e707cbb82287b6 data\durtleminer\recipe\chorus_planks.json
@@ -58,6 +59,7 @@ dbf7058f5853c3c9110227b0c4b8bff05c641fac data\durtleminer\advancement\recipes\mi
 1e5f4d4ffc1be306555ad6d3bc43c302ed897cbc data\durtleminer\advancement\recipes\tools\netherite_shovel_fixing_smithing.json
 5fe9ffe7791834e84427d71e2e9b8290b1141b08 data\durtleminer\advancement\recipes\misc\confluence_armor_trim_smithing_template.json
 241d0891b513905c23424a326dace73469a95895 data\durtleminer\advancement\recipes\building_blocks\chorus_slab.json
+ff84f0c4a7080d344a9d5715cfaed85a34665a8b data\durtleminer\advancement\recipes\tools\hez_happy_music.json
 33aa2e01fe4a323ea548043b844b1b55c7afe2bd data\durtleminer\advancement\recipes\misc\confluence.json
 2327b092fef5937e123b12b2071175e7a07ac6c0 data\durtleminer\recipe\naivety.json
 8928f12d334a725369f82e90a72fa7d299f8a696 data\durtleminer\advancement\recipes\misc\unity_armor_trim_smithing_template.json

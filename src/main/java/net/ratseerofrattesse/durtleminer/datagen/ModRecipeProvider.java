@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -163,6 +164,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_LEGGINGS, RecipeCategory.COMBAT, Items.NETHERITE_LEGGINGS);
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_BOOTS, RecipeCategory.COMBAT, Items.NETHERITE_BOOTS);
 
+        //HEZ HAPPY MUSIC
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_HEZ_HAPPY_MUSIC)
+                .pattern("TTT")
+                .pattern("TDT")
+                .pattern("TTT")
+                .input('D', Items.DIAMOND)
+                .input('T', Items.TURTLE_SCUTE)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(hasItem(Items.TURTLE_SCUTE), conditionsFromItem(Items.TURTLE_SCUTE))
+                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "hez_happy_music"));
     }
 
 

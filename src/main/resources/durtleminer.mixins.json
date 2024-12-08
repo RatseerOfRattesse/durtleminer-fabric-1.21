@@ -3,7 +3,9 @@
 	"package": "net.ratseerofrattesse.durtleminer.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"SoundMixin",
+		"InstrumentsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

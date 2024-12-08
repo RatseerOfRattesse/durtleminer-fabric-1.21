@@ -72,7 +72,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Durtleminer.LOGGER.info("you better run cuz " + Durtleminer.MOD_ID + " is registering blocks");
+        Durtleminer.LOGGER.info("[" + Durtleminer.MOD_ID + "]:" + "you better run cuz " + Durtleminer.MOD_ID + " is registering blocks");
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.DARK_PURPUR_BLOCK);

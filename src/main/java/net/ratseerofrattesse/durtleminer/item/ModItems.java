@@ -11,8 +11,8 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.ratseerofrattesse.durtleminer.Durtleminer;
-import net.ratseerofrattesse.durtleminer.block.jukebox.ModJukeboxSongs;
 import net.ratseerofrattesse.durtleminer.item.custom.MrFinchsHoeItem;
+import net.ratseerofrattesse.durtleminer.sound.ModSounds;
 
 import java.util.List;
 
@@ -95,7 +95,7 @@ public class ModItems {
 
     //Hez Happy Music !!!!! 0::::
     public static final Item MUSIC_DISC_HEZ_HAPPY_MUSIC = registerItem(
-            "music_disc_hez_happy_music", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.HEZ_HAPPY_MUSIC)));
+            "music_disc_hez_happy_music", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.HEZ_HAPPY_MUSIC_KEY).maxCount(1)));
 
     //SoW Trims
     public static final Item INTERNECION_SMITHING_TEMPLATE = registerItem("internecion_armor_trim_smithing_template",
@@ -236,7 +236,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        Durtleminer.LOGGER.info(Durtleminer.MOD_ID + "'s items are existing 0:::::");
+        Durtleminer.LOGGER.info("[" + Durtleminer.MOD_ID + "]:" + Durtleminer.MOD_ID + "'s items are existing 0:::::");
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(LESSER_FIRMAMENT_PICKAXE);

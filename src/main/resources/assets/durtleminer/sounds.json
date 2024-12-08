@@ -1,16 +1,10 @@
 {
-  "music_disc.hez_happy_music": {
+  "hez_happy_music": {
+    "subtitle": "subtitles.durtleminer.hez_happy_music",
     "sounds": [
       {
-        "name": "durtleminer:records/hez_happy_music",
+        "name": "durtleminer:hez_happy_music",
         "stream": true
-      }
-    ]
-  },
-  "item.goat_horn.arjun_is_sus_goat_horn": {
-    "sounds": [
-      {
-        "name": "durtleminer:item/goat_horn/arjun_is_sus"
       }
     ]
   }
