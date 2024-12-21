@@ -106,3 +106,21 @@ Added Mysterious Key, farm variant
   - Staircase of doom: big parkour staircase. Might have more rooms at the top, might not
   - Wooden hallway: a trial spawner and barrels full of logs and occasionally god apples
   - Tombs are about as rare as the maximum rarity of a village. They're kinda overpowered, but most of the good loot is in vaults so you most likely only need to find one for a whole server
+### 1.18
+- Changed up netherite gear
+  - Upgrading diamond to netherite produces shattered gear
+  - Shattered gear has to be put in a smithing table with a netherite upgrade template and a nether star to turn into netherite gear.
+  - As this mod is primarily for the SMP, this was made to stop a _certain player_ from getting everything on the first day.
+### 1.19
+- Fixed Arjun is Sus goat horn and Hez Happy Music disc. Both now work regardless of commands or recipes.
+- Added I Am Steve goat horn (exactly what it sounds like).
+- Changed lang files over to the datagen system.
+### 1.20
+- Made diamonds and netherite renewable
+  - Diamond gear can be smelted down into one diamond
+  - Trade one netherite upgrade template to weaponsmith, armoursmith, or toolsmith for four netherite scraps.
+### 1.21
+- Debuffed the Wither
+  - It now only has 150 health and does not regen.
+  - This was done to counter the lack of protection and sharpness enchantments on the server.
+- Added gear to the enchantable tags 
