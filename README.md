@@ -115,3 +115,12 @@ Added Mysterious Key, farm variant
 - Fixed Arjun is Sus goat horn and Hez Happy Music disc. Both now work regardless of commands or recipes.
 - Added I Am Steve goat horn (exactly what it sounds like).
 - Changed lang files over to the datagen system.
+### 1.20
+- Made diamonds and netherite renewable
+  - Diamond gear can be smelted down into one diamond
+  - Trade one netherite upgrade template to weaponsmith, armoursmith, or toolsmith for four netherite scraps.
+### 1.21
+- Debuffed the Wither
+  - It now only has 150 health and does not regen.
+  - This was done to counter the lack of protection and sharpness enchantments on the server.
+- Added gear to the enchantable tags 
