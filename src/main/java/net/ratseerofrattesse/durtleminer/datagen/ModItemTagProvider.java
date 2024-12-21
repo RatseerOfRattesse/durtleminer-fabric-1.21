@@ -36,17 +36,51 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.REBELLION_SMITHING_TEMPLATE)
                 .add(ModItems.UNITY_SMITHING_TEMPLATE);
 
-        //Mr. Finch's Hoe
-        getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.MRFINCHS_HOE);
 
         //Pickaxes
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.LESSER_FIRMAMENT_PICKAXE)
                 .add(ModItems.SHATTERED_PICKAXE);
 
+        //Mining Tools
+        getOrCreateTagBuilder(ItemTags.MINING_ENCHANTABLE)
+                .add(ModItems.LESSER_FIRMAMENT_PICKAXE)
+                .add(ModItems.SHATTERED_PICKAXE)
+                .add(ModItems.SHATTERED_AXE)
+                .add(ModItems.SHATTERED_SHOVEL)
+                .add(ModItems.SHATTERED_HOE);
+        getOrCreateTagBuilder(ItemTags.MINING_LOOT_ENCHANTABLE)
+                .add(ModItems.LESSER_FIRMAMENT_PICKAXE)
+                .add(ModItems.SHATTERED_PICKAXE)
+                .add(ModItems.SHATTERED_AXE)
+                .add(ModItems.SHATTERED_SHOVEL)
+                .add(ModItems.SHATTERED_HOE);
+
+        //Durability
+        getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(ModItems.WOODEN_DAGGER)
+                .add(ModItems.IRON_DAGGER)
+                .add(ModItems.GOLD_DAGGER)
+                .add(ModItems.DIAMOND_DAGGER)
+                .add(ModItems.NETHERITE_DAGGER)
+                .add(ModItems.SHATTERED_DAGGER)
+                .add(ModItems.STONE_DAGGER)
+                .add(ModItems.LESSER_FIRMAMENT_PICKAXE)
+                .add(ModItems.SHATTERED_SWORD)
+                .add(ModItems.SHATTERED_PICKAXE)
+                .add(ModItems.SHATTERED_AXE)
+                .add(ModItems.SHATTERED_SHOVEL)
+                .add(ModItems.SHATTERED_HOE)
+                .add(ModItems.SHATTERED_HELMET)
+                .add(ModItems.SHATTERED_CHESTPLATE)
+                .add(ModItems.SHATTERED_LEGGINGS)
+                .add(ModItems.SHATTERED_BOOTS);
+
+
         //Swords
         getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.SHATTERED_SWORD);
+        getOrCreateTagBuilder(ItemTags.SWORD_ENCHANTABLE)
                 .add(ModItems.SHATTERED_SWORD);
 
         //Shovels
@@ -59,7 +93,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         //Hoes
         getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.SHATTERED_HOE);
+                .add(ModItems.SHATTERED_HOE)
+                .add(ModItems.MRFINCHS_HOE);
 
         //Trimmable Armor
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
@@ -95,5 +130,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NETHERITE_DAGGER)
                 .add(ModItems.SHATTERED_DAGGER)
                 .add(ModItems.STONE_DAGGER);
+        getOrCreateTagBuilder(ItemTags.SWORD_ENCHANTABLE)
+                .add(ModItems.WOODEN_DAGGER)
+                .add(ModItems.IRON_DAGGER)
+                .add(ModItems.GOLD_DAGGER)
+                .add(ModItems.DIAMOND_DAGGER)
+                .add(ModItems.NETHERITE_DAGGER)
+                .add(ModItems.SHATTERED_DAGGER)
+                .add(ModItems.STONE_DAGGER);
+
     }
 }

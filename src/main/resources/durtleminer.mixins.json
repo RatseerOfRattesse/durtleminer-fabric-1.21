@@ -5,7 +5,9 @@
 	"mixins": [
 		"ExampleMixin",
 		"SoundMixin",
-		"InstrumentsMixin"
+		"InstrumentsMixin",
+		"TradeOffersMixin",
+		"WitherEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

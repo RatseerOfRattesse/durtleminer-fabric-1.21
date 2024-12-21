@@ -164,7 +164,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_LEGGINGS, RecipeCategory.COMBAT, Items.NETHERITE_LEGGINGS);
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_BOOTS, RecipeCategory.COMBAT, Items.NETHERITE_BOOTS);
 
-        //HEZ HAPPY MUSIC
+        //MUSIC DISCS
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_HEZ_HAPPY_MUSIC)
                 .pattern("TTT")
                 .pattern("TDT")
@@ -174,7 +174,76 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .criterion(hasItem(Items.TURTLE_SCUTE), conditionsFromItem(Items.TURTLE_SCUTE))
                 .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "hez_happy_music"));
+
+        //SMELTING DIAMOND GEAR
+        CookingRecipeJsonBuilder.createSmelting(
+                        Ingredient.ofItems(
+                                Items.DIAMOND_PICKAXE,
+                                Items.DIAMOND_SHOVEL,
+                                Items.DIAMOND_AXE,
+                                Items.DIAMOND_HOE,
+                                Items.DIAMOND_SWORD,
+                                Items.DIAMOND_HELMET,
+                                Items.DIAMOND_CHESTPLATE,
+                                Items.DIAMOND_LEGGINGS,
+                                Items.DIAMOND_BOOTS,
+                                Items.DIAMOND_HORSE_ARMOR,
+                                Items.CHAINMAIL_HELMET,
+                                Items.CHAINMAIL_CHESTPLATE,
+                                Items.CHAINMAIL_LEGGINGS,
+                                Items.CHAINMAIL_BOOTS
+                        ),
+                        RecipeCategory.MISC,
+                        Items.DIAMOND,
+                        0.5F,
+                        200
+                )
+                .criterion("has_diamond_pickaxe", conditionsFromItem(Items.DIAMOND_PICKAXE))
+                .criterion("has_diamond_shovel", conditionsFromItem(Items.DIAMOND_SHOVEL))
+                .criterion("has_diamond_axe", conditionsFromItem(Items.DIAMOND_AXE))
+                .criterion("has_diamond_hoe", conditionsFromItem(Items.DIAMOND_HOE))
+                .criterion("has_diamond_sword", conditionsFromItem(Items.DIAMOND_SWORD))
+                .criterion("has_diamond_helmet", conditionsFromItem(Items.DIAMOND_HELMET))
+                .criterion("has_diamond_chestplate", conditionsFromItem(Items.DIAMOND_CHESTPLATE))
+                .criterion("has_diamond_leggings", conditionsFromItem(Items.DIAMOND_LEGGINGS))
+                .criterion("has_diamond_boots", conditionsFromItem(Items.DIAMOND_BOOTS))
+                .criterion("has_diamond_horse_armor", conditionsFromItem(Items.DIAMOND_HORSE_ARMOR))
+                .offerTo(exporter, getSmeltingItemPath(Items.DIAMOND));
+        CookingRecipeJsonBuilder.createBlasting(
+                        Ingredient.ofItems(
+                                Items.DIAMOND_PICKAXE,
+                                Items.DIAMOND_SHOVEL,
+                                Items.DIAMOND_AXE,
+                                Items.DIAMOND_HOE,
+                                Items.DIAMOND_SWORD,
+                                Items.DIAMOND_HELMET,
+                                Items.DIAMOND_CHESTPLATE,
+                                Items.DIAMOND_LEGGINGS,
+                                Items.DIAMOND_BOOTS,
+                                Items.DIAMOND_HORSE_ARMOR,
+                                Items.CHAINMAIL_HELMET,
+                                Items.CHAINMAIL_CHESTPLATE,
+                                Items.CHAINMAIL_LEGGINGS,
+                                Items.CHAINMAIL_BOOTS
+                        ),
+                        RecipeCategory.MISC,
+                        Items.DIAMOND,
+                        0.5F,
+                        100
+                )
+                .criterion("has_diamond_pickaxe", conditionsFromItem(Items.DIAMOND_PICKAXE))
+                .criterion("has_diamond_shovel", conditionsFromItem(Items.DIAMOND_SHOVEL))
+                .criterion("has_diamond_axe", conditionsFromItem(Items.DIAMOND_AXE))
+                .criterion("has_diamond_hoe", conditionsFromItem(Items.DIAMOND_HOE))
+                .criterion("has_diamond_sword", conditionsFromItem(Items.DIAMOND_SWORD))
+                .criterion("has_diamond_helmet", conditionsFromItem(Items.DIAMOND_HELMET))
+                .criterion("has_diamond_chestplate", conditionsFromItem(Items.DIAMOND_CHESTPLATE))
+                .criterion("has_diamond_leggings", conditionsFromItem(Items.DIAMOND_LEGGINGS))
+                .criterion("has_diamond_boots", conditionsFromItem(Items.DIAMOND_BOOTS))
+                .criterion("has_diamond_horse_armor", conditionsFromItem(Items.DIAMOND_HORSE_ARMOR))
+                .offerTo(exporter, getBlastingItemPath(Items.DIAMOND));
     }
+
 
 
 
