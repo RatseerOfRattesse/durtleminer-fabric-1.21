@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "durtleminer",
-	"version": "1.20",
+	"version": "1.22",
 	"name": "Durtleminer",
 	"description": "Mod for the Durtle Empire SMP server",
 	"authors": [

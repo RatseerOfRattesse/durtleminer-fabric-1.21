@@ -409,7 +409,7 @@ public class TradeOffersMixin {
                                         },
                                         5,
                                         new TradeOffers.Factory[]{new TradeOffers.SellEnchantedToolFactory(Items.DIAMOND_SWORD, 8, 3, 30, 0.2F),
-                                        new TradeOffers.ProcessItemFactory(Items.DIAMOND, 1, 5, Items.NETHERITE_SCRAP, 4, 12, 30, 0.05F)
+                                        new TradeOffers.ProcessItemFactory(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, 1, 5, Items.NETHERITE_SCRAP, 4, 12, 30, 0.05F)
                                         }
                                 )
                         )
@@ -446,7 +446,7 @@ public class TradeOffersMixin {
                                         },
                                         5,
                                         new TradeOffers.Factory[]{new TradeOffers.SellEnchantedToolFactory(Items.DIAMOND_PICKAXE, 13, 3, 30, 0.2F),
-                                        new TradeOffers.ProcessItemFactory(Items.DIAMOND, 1, 5, Items.NETHERITE_SCRAP, 4, 12, 30, 0.05F)
+                                        new TradeOffers.ProcessItemFactory(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, 1, 5, Items.NETHERITE_SCRAP, 4, 12, 30, 0.05F)
                                         }
                                 )
                         )
