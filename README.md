@@ -124,3 +124,5 @@ Added Mysterious Key, farm variant
   - It now only has 150 health and does not regen.
   - This was done to counter the lack of protection and sharpness enchantments on the server.
 - Added gear to the enchantable tags 
+### 1.22
+- Patched toolsmiths and weaponsmiths taking diamonds for netherite instead of upgrade templates for netherite
