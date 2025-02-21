@@ -126,3 +126,12 @@ Added Mysterious Key, farm variant
 - Added gear to the enchantable tags 
 ### 1.22
 - Patched toolsmiths and weaponsmiths taking diamonds for netherite instead of upgrade templates for netherite
+### 1.23
+- Removed wither nerfs and diamond/netherite changes, as Durtle Empire Season 3 has ended
+- Changed Hez Happy Music disc's texture
+- Added 5 music discs, with music from Liam Vickers and one from Rick Astley
+  - Door Guy's Theme
+  - Gat Ritzy's Continuance Cube
+  - ELIMINATE!
+  - Jazz Cube
+  - Never Gonna Give You Up
