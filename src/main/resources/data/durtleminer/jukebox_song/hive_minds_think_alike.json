@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.durtleminer.music_disc_hive_minds_think_alike.desc"
+  },
+  "length_in_seconds": 152.0,
+  "sound_event": "durtleminer:hive_minds_think_alike"
+}

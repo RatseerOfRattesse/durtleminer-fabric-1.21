@@ -149,9 +149,66 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmithingTemplateCopyingRecipe(exporter, ModItems.REBELLION_SMITHING_TEMPLATE, Blocks.BLUE_ICE);
         offerSmithingTemplateCopyingRecipe(exporter, ModItems.UNITY_SMITHING_TEMPLATE, Items.BREEZE_ROD);
 
+        //Hez Happy Music
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_HEZ_HAPPY_MUSIC)
+                .pattern("TTT")
+                .pattern("TDT")
+                .pattern("TTT")
+                .input('D', Items.DIAMOND)
+                .input('T', Items.TURTLE_SCUTE)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(hasItem(Items.TURTLE_SCUTE), conditionsFromItem(Items.TURTLE_SCUTE))
+                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "music_disc_hez_happy_music"));
+        //Door Guy's Theme
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_DOOR_GUYS_THEME)
+                .pattern("SSS")
+                .pattern("SDS")
+                .pattern("SSS")
+                .input('D', ItemTags.DOORS)
+                .input('S', Items.SLIME_BALL)
+                .criterion(hasItem(Items.SLIME_BALL), conditionsFromItem(Items.SLIME_BALL))
+                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "music_disc_door_guys_theme"));
+        //Gat Ritzy's Continuance Cube
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_GAT_RITZYS_CONTINUANCE_CUBE)
+                .pattern("OOO")
+                .pattern("OSO")
+                .pattern("OOO")
+                .input('S', Items.SMOOTH_STONE)
+                .input('O', ItemTags.SOUL_FIRE_BASE_BLOCKS)
+                .criterion(hasItem(Items.SMOOTH_STONE), conditionsFromItem(Items.SMOOTH_STONE))
+                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "music_disc_gat_ritzys_continuance_cube"));
+        //ELIMINATE!
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_ELIMINATE)
+                .pattern("AAA")
+                .pattern("ARA")
+                .pattern("AAA")
+                .input('R', Items.REDSTONE_BLOCK)
+                .input('A', Items.ARROW)
+                .criterion(hasItem(Items.REDSTONE_BLOCK), conditionsFromItem(Items.REDSTONE_BLOCK))
+                .criterion(hasItem(Items.ARROW), conditionsFromItem(Items.ARROW))
+                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "music_disc_eliminate"));
+        //JAZZ CUBE
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_JAZZ_CUBE)
+                .pattern("RRR")
+                .pattern("RSR")
+                .pattern("RRR")
+                .input('S', Items.SMOOTH_STONE)
+                .input('R', Items.REDSTONE)
+                .criterion(hasItem(Items.SMOOTH_STONE), conditionsFromItem(Items.SMOOTH_STONE))
+                .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "music_disc_jazz_cube"));
+        //Hive Minds Think Alike
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_HIVE_MINDS_THINK_ALIKE)
+                .pattern("CCC")
+                .pattern("CSC")
+                .pattern("CCC")
+                .input('S', Items.STRING)
+                .input('C', Items.CLOCK)
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .criterion(hasItem(Items.CLOCK), conditionsFromItem(Items.CLOCK))
+                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "music_disc_hive_minds_think_alike"));
 
-
-        //Shattered Gear
+        /*//Shattered Gear
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_SWORD, RecipeCategory.COMBAT, Items.NETHERITE_SWORD);
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_DAGGER, RecipeCategory.COMBAT, ModItems.NETHERITE_DAGGER);
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_PICKAXE, RecipeCategory.TOOLS, Items.NETHERITE_PICKAXE);
@@ -163,17 +220,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_CHESTPLATE, RecipeCategory.COMBAT, Items.NETHERITE_CHESTPLATE);
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_LEGGINGS, RecipeCategory.COMBAT, Items.NETHERITE_LEGGINGS);
         offerNetherStarUpgradeRecipe(exporter, ModItems.SHATTERED_BOOTS, RecipeCategory.COMBAT, Items.NETHERITE_BOOTS);
-
-        //MUSIC DISCS
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MUSIC_DISC_HEZ_HAPPY_MUSIC)
-                .pattern("TTT")
-                .pattern("TDT")
-                .pattern("TTT")
-                .input('D', Items.DIAMOND)
-                .input('T', Items.TURTLE_SCUTE)
-                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
-                .criterion(hasItem(Items.TURTLE_SCUTE), conditionsFromItem(Items.TURTLE_SCUTE))
-                .offerTo(exporter, Identifier.of(Durtleminer.MOD_ID, "hez_happy_music"));
 
         //SMELTING DIAMOND GEAR
         CookingRecipeJsonBuilder.createSmelting(
@@ -241,7 +287,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_diamond_leggings", conditionsFromItem(Items.DIAMOND_LEGGINGS))
                 .criterion("has_diamond_boots", conditionsFromItem(Items.DIAMOND_BOOTS))
                 .criterion("has_diamond_horse_armor", conditionsFromItem(Items.DIAMOND_HORSE_ARMOR))
-                .offerTo(exporter, getBlastingItemPath(Items.DIAMOND));
+                .offerTo(exporter, getBlastingItemPath(Items.DIAMOND));*/
     }
 
 
@@ -257,14 +303,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, getItemPath(result) + "_smithing");
     }
 
-    //Template for upgrade via Nether Star to Netherite
+    /*//Template for upgrade via Nether Star to Netherite
     public static void offerNetherStarUpgradeRecipe(RecipeExporter exporter, Item input, RecipeCategory category, Item result) {
         SmithingTransformRecipeJsonBuilder.create(
                         Ingredient.ofItems(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(input), Ingredient.ofItems(Items.NETHER_STAR), category, result
                 )
                 .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
                 .offerTo(exporter, getItemPath(result) + "_fixing_smithing");
-    }
+    }*/
 
     //Template for dagger recipes
     public static CraftingRecipeJsonBuilder createDaggerRecipe(ItemConvertible output, Ingredient input) {

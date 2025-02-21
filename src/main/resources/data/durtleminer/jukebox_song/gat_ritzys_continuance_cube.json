@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.durtleminer.music_disc_gat_ritzys_continuance_cube.desc"
+  },
+  "length_in_seconds": 192.0,
+  "sound_event": "durtleminer:gat_ritzys_continuance_cube"
+}

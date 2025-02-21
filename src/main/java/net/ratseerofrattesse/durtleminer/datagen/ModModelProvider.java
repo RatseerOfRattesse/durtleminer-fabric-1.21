@@ -63,6 +63,12 @@ public class ModModelProvider extends FabricModelProvider {
 
         //Hez Happy Music
         itemModelGenerator.register(ModItems.MUSIC_DISC_HEZ_HAPPY_MUSIC, Models.TEMPLATE_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_DOOR_GUYS_THEME, Models.TEMPLATE_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_JAZZ_CUBE, Models.TEMPLATE_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_ELIMINATE, Models.TEMPLATE_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_GAT_RITZYS_CONTINUANCE_CUBE, Models.TEMPLATE_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_HIVE_MINDS_THINK_ALIKE, Models.TEMPLATE_MUSIC_DISC);
+
 
         //SoW Trims
         itemModelGenerator.register(ModItems.INTERNECION_SMITHING_TEMPLATE, Models.GENERATED);

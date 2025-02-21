@@ -24,6 +24,7 @@ import java.util.Map;
 @Mixin(TradeOffers.class)
 public class TradeOffersMixin {
 
+    /*
     @Shadow
     public static final Map<VillagerProfession, Int2ObjectMap<TradeOffers.Factory[]>> PROFESSION_TO_LEVELED_TRADE = Util.make(
             Maps.<VillagerProfession, Int2ObjectMap<TradeOffers.Factory[]>>newHashMap(),
@@ -577,4 +578,5 @@ public class TradeOffersMixin {
     private static Int2ObjectMap<TradeOffers.Factory[]> copyToFastUtilMap(ImmutableMap<Integer, TradeOffers.Factory[]> map) {
         return new Int2ObjectOpenHashMap<>(map);
     }
+    */
 }

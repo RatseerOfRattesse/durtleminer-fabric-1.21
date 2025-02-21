@@ -7,5 +7,50 @@
         "stream": true
       }
     ]
+  },
+  "door_guys_theme": {
+    "subtitle": "subtitles.durtleminer.door_guys_theme",
+    "sounds": [
+      {
+        "name": "durtleminer:door_guys_theme",
+        "stream": true
+      }
+    ]
+  },
+  "eliminate": {
+    "subtitle": "subtitles.durtleminer.eliminate",
+    "sounds": [
+      {
+        "name": "durtleminer:eliminate",
+        "stream": true
+      }
+    ]
+  },
+  "jazz_cube": {
+    "subtitle": "subtitles.durtleminer.jazz_cube",
+    "sounds": [
+      {
+        "name": "durtleminer:jazz_cube",
+        "stream": true
+      }
+    ]
+  },
+  "gat_ritzys_continuance_cube": {
+    "subtitle": "subtitles.durtleminer.gat_ritzys_continuance_cube",
+    "sounds": [
+      {
+        "name": "durtleminer:gat_ritzys_continuance_cube",
+        "stream": true
+      }
+    ]
+  },
+  "hive_minds_think_alike": {
+    "subtitle": "subtitles.durtleminer.hive_minds_think_alike",
+    "sounds": [
+      {
+        "name": "durtleminer:hive_minds_think_alike",
+        "stream": true
+      }
+    ]
   }
 }

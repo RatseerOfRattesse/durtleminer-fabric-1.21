@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RSR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "durtleminer:music_disc_jazz_cube"
+  }
+}

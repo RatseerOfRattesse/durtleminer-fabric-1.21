@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "OSO",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "durtleminer:music_disc_gat_ritzys_continuance_cube"
+  }
+}

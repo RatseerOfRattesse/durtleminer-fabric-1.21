@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.durtleminer.music_disc_jazz_cube.desc"
+  },
+  "length_in_seconds": 193.0,
+  "sound_event": "durtleminer:jazz_cube"
+}

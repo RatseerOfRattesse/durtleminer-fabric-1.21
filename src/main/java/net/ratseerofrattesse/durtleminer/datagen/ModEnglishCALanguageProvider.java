@@ -62,6 +62,26 @@ public class ModEnglishCALanguageProvider extends FabricLanguageProvider {
         translationBuilder.add("item.durtleminer.music_disc_hez_happy_music.desc", "Smileydude23 - Hez Happy Music");
         translationBuilder.add("jukebox_song.durtleminer.hez_happy_music", "Smileydude23 - Hez Happy Music");
         translationBuilder.add("subtitles.durtleminer.hez_happy_music", "Hez Happy Music");
+        translationBuilder.add(ModItems.MUSIC_DISC_DOOR_GUYS_THEME, "Music Disc");
+        translationBuilder.add("item.durtleminer.music_disc_door_guys_theme.desc", "Liam Vickers - Door Guy's Theme");
+        translationBuilder.add("jukebox_song.durtleminer.door_guys_theme", "Liam Vickers - Door Guy's Theme");
+        translationBuilder.add("subtitles.durtleminer.door_guys_theme", "Door Guy's Theme");
+        translationBuilder.add(ModItems.MUSIC_DISC_GAT_RITZYS_CONTINUANCE_CUBE, "Music Disc");
+        translationBuilder.add("item.durtleminer.music_disc_gat_ritzys_continuance_cube.desc", "Liam Vickers - Gat Ritzy's Continuance Cube");
+        translationBuilder.add("jukebox_song.durtleminer.gat_ritzys_continuance_cube", "Liam Vickers - Gat Ritzy's Continuance Cube");
+        translationBuilder.add("subtitles.durtleminer.gat_ritzys_continuance_cube", "Gat Ritzy's Continuance Cube");
+        translationBuilder.add(ModItems.MUSIC_DISC_ELIMINATE, "Music Disc");
+        translationBuilder.add("item.durtleminer.music_disc_eliminate.desc", "Liam Vickers - ELIMINATE!");
+        translationBuilder.add("jukebox_song.durtleminer.eliminate", "Liam Vickers - ELIMINATE!");
+        translationBuilder.add("subtitles.durtleminer.eliminate", "ELIMINATE!");
+        translationBuilder.add(ModItems.MUSIC_DISC_JAZZ_CUBE, "Music Disc");
+        translationBuilder.add("item.durtleminer.music_disc_jazz_cube.desc", "Liam Vickers - JAZZ CUBE");
+        translationBuilder.add("jukebox_song.durtleminer.jazz_cube", "Liam Vickers - JAZZ CUBE");
+        translationBuilder.add("subtitles.durtleminer.jazz_cube", "JAZZ CUBE");
+        translationBuilder.add(ModItems.MUSIC_DISC_HIVE_MINDS_THINK_ALIKE, "Music Disc");
+        translationBuilder.add("item.durtleminer.music_disc_hive_minds_think_alike.desc", "Liam Vickers - Hive Minds Think Alike");
+        translationBuilder.add("jukebox_song.durtleminer.hive_minds_think_alike", "Liam Vickers - Hive Minds Think Alike");
+        translationBuilder.add("subtitles.durtleminer.hive_minds_think_alike", "Hive Minds Think Alike");
 
         //Armour Trims
         translationBuilder.add(ModItems.INTERNECION_SMITHING_TEMPLATE, "Smithing Template");

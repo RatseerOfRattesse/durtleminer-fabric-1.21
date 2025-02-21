@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.durtleminer.music_disc_door_guys_theme.desc"
+  },
+  "length_in_seconds": 131.0,
+  "sound_event": "durtleminer:door_guys_theme"
+}

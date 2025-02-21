@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_nether_star": {
+    "has_smooth_stone": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nether_star"
+            "items": "minecraft:smooth_stone"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:netherite_sword_fixing_smithing"
+        "recipe": "durtleminer:music_disc_gat_ritzys_continuance_cube"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_nether_star"
+      "has_smooth_stone"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:netherite_sword_fixing_smithing"
+      "durtleminer:music_disc_gat_ritzys_continuance_cube"
     ]
   }
 }

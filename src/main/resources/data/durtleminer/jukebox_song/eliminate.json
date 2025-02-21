@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.durtleminer.music_disc_eliminate.desc"
+  },
+  "length_in_seconds": 199.0,
+  "sound_event": "durtleminer:eliminate"
+}

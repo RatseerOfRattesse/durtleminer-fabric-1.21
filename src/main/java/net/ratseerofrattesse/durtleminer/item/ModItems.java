@@ -95,20 +95,18 @@ public class ModItems {
 
     //Music Discs
     public static final Item MUSIC_DISC_HEZ_HAPPY_MUSIC = registerItem(
-            "music_disc_hez_happy_music", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.HEZ_HAPPY_MUSIC_KEY).maxCount(1)));
-    /*
-    public static final Item MUSIC_DISC_NEVER_GONNA_GIVE_YOU_UP = registerItem(
-            "music_disc_never_gonna_give_you_up", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.NEVER_GONNA_GIVE_YOU_UP_KEY).maxCount(1)));
-    public static final Item MUSIC_DISC_PONDERS_THEME = registerItem(
-            "music_disc_ponders_theme", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.PONDERS_THEME_KEY).maxCount(1)));
+            "music_disc_hez_happy_music", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.HEZ_HAPPY_MUSIC_KEY)));
     public static final Item MUSIC_DISC_DOOR_GUYS_THEME = registerItem(
-            "music_disc_door_guys_theme", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.DOOR_GUYS_THEME_KEY).maxCount(1)));
+            "music_disc_door_guys_theme", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.DOOR_GUYS_THEME_KEY)));
     public static final Item MUSIC_DISC_ELIMINATE = registerItem(
-            "music_disc_eliminate", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.ELIMINATE_KEY).maxCount(1)));
+            "music_disc_eliminate", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.ELIMINATE_KEY)));
     public static final Item MUSIC_DISC_JAZZ_CUBE = registerItem(
-            "music_disc_jazz_cube", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.JAZZ_CUBE_KEY).maxCount(1)));
+            "music_disc_jazz_cube", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.JAZZ_CUBE_KEY)));
+    public static final Item MUSIC_DISC_GAT_RITZYS_CONTINUANCE_CUBE = registerItem(
+            "music_disc_gat_ritzys_continuance_cube", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.GAT_RITZYS_CONTINUANCE_CUBE_KEY)));
+    public static final Item MUSIC_DISC_HIVE_MINDS_THINK_ALIKE = registerItem(
+            "music_disc_hive_minds_think_alike", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.HIVE_MINDS_THINK_ALIKE_KEY)));
 
-     */
     //SoW Trims
     public static final Item INTERNECION_SMITHING_TEMPLATE = registerItem("internecion_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(Durtleminer.MOD_ID, "internecion"), FeatureFlags.VANILLA));
@@ -288,6 +286,11 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(MUSIC_DISC_HEZ_HAPPY_MUSIC);
+            entries.add(MUSIC_DISC_DOOR_GUYS_THEME);
+            entries.add(MUSIC_DISC_ELIMINATE);
+            entries.add(MUSIC_DISC_GAT_RITZYS_CONTINUANCE_CUBE);
+            entries.add(MUSIC_DISC_HIVE_MINDS_THINK_ALIKE);
+            entries.add(MUSIC_DISC_JAZZ_CUBE);
             entries.add(MRFINCHS_HOE);
         });
     }

@@ -25,6 +25,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         //Discs
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.MUSIC_DISC_HEZ_HAPPY_MUSIC);
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.MUSIC_DISC_DOOR_GUYS_THEME);
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.MUSIC_DISC_GAT_RITZYS_CONTINUANCE_CUBE);
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.MUSIC_DISC_JAZZ_CUBE);
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.MUSIC_DISC_ELIMINATE);
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.MUSIC_DISC_HIVE_MINDS_THINK_ALIKE);
 
         //SoW Trims
         getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)

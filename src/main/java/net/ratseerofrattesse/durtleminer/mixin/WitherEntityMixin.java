@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(WitherEntity.class)
 public class WitherEntityMixin {
 
-	private int age;
+/*	private int age;
 
 	@ModifyReturnValue(method = "createWitherAttributes", at = @At("RETURN"))
 	private static DefaultAttributeContainer.Builder increaseHealth(DefaultAttributeContainer.Builder original) {
@@ -31,5 +31,5 @@ public class WitherEntityMixin {
 	}
 
 	private void heal(float v) {
-	}
+	}*/
 }
