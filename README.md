@@ -126,3 +126,15 @@ Added Mysterious Key, farm variant
 - Added gear to the enchantable tags 
 ### 1.22
 - Patched toolsmiths and weaponsmiths taking diamonds for netherite instead of upgrade templates for netherite
+### 1.23
+- Removed wither nerfs and diamond/netherite changes, as Durtle Empire Season 3 has ended
+- Changed Hez Happy Music disc's texture
+- Added 5 music discs, with music from Liam Vickers and one from Rick Astley
+  - Door Guy's Theme
+  - Gat Ritzy's Continuance Cube
+  - ELIMINATE!
+  - Jazz Cube
+  - Never Gonna Give You Up
+### 1.24
+- Made buckets of axolotls a powerful fuel source equivalent to a coal block
+- Cooking a bucket of axolotl creates a cooked bucket of axolotl, which gives 3 hunger points and 3 minutes of dolphin's grace
