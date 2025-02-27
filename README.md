@@ -135,3 +135,6 @@ Added Mysterious Key, farm variant
   - ELIMINATE!
   - Jazz Cube
   - Never Gonna Give You Up
+### 1.24
+- Made buckets of axolotls a powerful fuel source equivalent to a coal block
+- Cooking a bucket of axolotl creates a cooked bucket of axolotl, which gives 3 hunger points and 3 minutes of dolphin's grace
