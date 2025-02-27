@@ -1,4 +1,4 @@
-// 1.21	2025-02-19T21:51:27.8433693	Durtleminer/Model Definitions
+// 1.21	2025-02-25T22:43:11.2615125	Durtleminer/Model Definitions
 88f2fc5152d5c0add0a6ff34f9ba9b2cc535694e assets\durtleminer\models\item\shattered_boots_copper_trim.json
 0a4423f1dcb612ce1e6c834e909d261fedc65e6d assets\durtleminer\models\item\shattered_leggings_diamond_trim.json
 fbe6f2b102a2838c77d36f5be2ad52de08eacaa1 assets\durtleminer\blockstates\dark_purpur_slab.json
@@ -61,6 +61,7 @@ e0b6735335a3e49cc4b4b7377d431b25d74be9eb assets\durtleminer\models\item\shattere
 393ca7d20edfd2580b60d1a0d2a51030d3e083cd assets\durtleminer\models\item\shattered_helmet_emerald_trim.json
 37687e058c571a38b3ebf5789171aa74eac13e35 assets\durtleminer\models\block\dark_purpur_pillar.json
 8874329783690a312fc0b51f5bfabf6df52a8889 assets\durtleminer\models\item\shattered_chestplate_iron_trim.json
+547a6f6f9cb6c09060dd7b63996a9ee0917be6cb assets\durtleminer\models\item\cooked_axolotl_bucket.json
 b0152521e850f806e3b1ecced718d6981c83acb8 assets\durtleminer\models\item\chorus_door.json
 67fbe5c4bb272df026674405a14d5c52a4f36f6e assets\durtleminer\models\block\chorus_door_bottom_right_open.json
 9b265ecbfc7e1946503e3db4075f35ed6052648a assets\durtleminer\models\item\shattered_pickaxe.json
@@ -126,8 +127,8 @@ b9ac068b51db7d5e95b05c2f7107cdbf4c0de143 assets\durtleminer\models\item\confluen
 06541f7f748cd41e14f94a5c15538e0d89af09bd assets\durtleminer\models\block\chorus_slab.json
 d108996de7f0eb447b5bb8f729f3d545c0f7964a assets\durtleminer\models\item\music_disc_jazz_cube.json
 64394dc216a216e95612a3ee0611143e912f24e7 assets\durtleminer\models\block\chorus_slab_top.json
-6fcf1647198ed7ee01703b2ea3b4bbdc5cbbcf33 assets\durtleminer\models\item\shattered_dagger.json
 5e20b8488f5ce7bc07ac9d987dad9669f82e8dab assets\durtleminer\models\item\chorus_slab.json
+6fcf1647198ed7ee01703b2ea3b4bbdc5cbbcf33 assets\durtleminer\models\item\shattered_dagger.json
 e766a9f614a222a8e4a544bae4c3b9d00cbafbd2 assets\durtleminer\models\block\chorus_door_bottom_left_open.json
 f11062de14bec159395c6f1223c9e9526c9a49c9 assets\durtleminer\blockstates\chorus_trapdoor.json
 fee6bc6d909628a082e3ffb60407d96c700eb352 assets\durtleminer\models\item\shattered_chestplate_emerald_trim.json

@@ -31,6 +31,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         //somebody help me figure out why it has to be lists ;-;
 
         List<ItemConvertible> TEMPLATE = List.of(ModItems.LESSER_FIRMAMENT_TEMPLATE);
+        List<ItemConvertible> AXOLOTL_BUCKET = List.of(Items.AXOLOTL_BUCKET);
 
 
         //Lesser Firmament Pickaxe
@@ -38,6 +39,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerLesserFirmamentUpgradeRecipe(exporter, Items.NETHERITE_PICKAXE, RecipeCategory.TOOLS, ModItems.LESSER_FIRMAMENT_PICKAXE);
         offerSmithingTemplateCopyingRecipe(exporter, ModItems.LESSER_FIRMAMENT_TEMPLATE, Items.END_STONE);
 
+        //Cooked Axolotl
+        offerSmelting(exporter, AXOLOTL_BUCKET, RecipeCategory.MISC, ModItems.COOKED_AXOLOTL_BUCKET, 0.35f, 200, "cooked_axolotl");
+        CookingRecipeJsonBuilder.createSmoking(Ingredient.ofItems(Items.AXOLOTL_BUCKET), RecipeCategory.FOOD, ModItems.COOKED_AXOLOTL_BUCKET, 0.35F, 200)
+                .criterion("has_axolotl_bucket", conditionsFromItem(Items.AXOLOTL_BUCKET))
+                .offerTo(exporter);
 
         //Dark Purpur Set
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_PURPUR_BLOCK)

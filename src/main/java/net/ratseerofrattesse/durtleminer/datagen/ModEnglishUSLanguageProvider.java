@@ -38,6 +38,9 @@ public class ModEnglishUSLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.LESSER_FIRMAMENT_TEMPLATE, "Lesser Firmament Template");
         translationBuilder.add(ModItems.LESSER_FIRMAMENT_PICKAXE, "Lesser Firmament Pickaxe");
 
+        //Cooked Axolotl
+        translationBuilder.add(ModItems.COOKED_AXOLOTL_BUCKET, "Cooked Bucket of Axolotl");
+
         //Mr. Finch's Hoe
         translationBuilder.add(ModItems.MRFINCHS_HOE, "Mr. Finch's Hoe");
 

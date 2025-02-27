@@ -11,6 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.ratseerofrattesse.durtleminer.Durtleminer;
+import net.ratseerofrattesse.durtleminer.item.custom.ModFoodComponents;
 import net.ratseerofrattesse.durtleminer.item.custom.MrFinchsHoeItem;
 import net.ratseerofrattesse.durtleminer.sound.ModSounds;
 
@@ -239,6 +240,10 @@ public class ModItems {
                     super.appendTooltip(stack, context, tooltip, type);
                 }
             });
+
+    //Cooked Axolotl Bucket
+    public static final Item COOKED_AXOLOTL_BUCKET = registerItem("cooked_axolotl_bucket",
+            new Item(new Item.Settings().maxCount(1).food(ModFoodComponents.COOKED_AXOLOTL_BUCKET)));
 
 
     private static Item registerItem(String name, Item item) {

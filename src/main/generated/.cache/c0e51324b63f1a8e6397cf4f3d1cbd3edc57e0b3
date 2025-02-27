@@ -1,12 +1,12 @@
-// 1.21	2025-02-19T21:51:27.8282845	Durtleminer/Block Loot Tables
+// 1.21	2025-02-25T22:43:11.2416437	Durtleminer/Block Loot Tables
 d421479b420f531cdc1c8da70b8a61f1765ec448 data\durtleminer\loot_table\blocks\chorus_slab.json
 1b9516267c5686203d55dc0019ff54f21486a7cc data\durtleminer\loot_table\blocks\dark_purpur_slab.json
 cf58341b7c0e69b2f6adc6f1b89f786f5664b096 data\durtleminer\loot_table\blocks\dark_purpur_block.json
 aaea07f2de1611321f16117cc773940f58d806c4 data\durtleminer\loot_table\blocks\chorus_fence_gate.json
 0f6775836518e33e97e54138000919a8eb714560 data\durtleminer\loot_table\blocks\chorus_fence.json
 84b63369e1c3996572a129fd2b2ef7a7f8172543 data\durtleminer\loot_table\blocks\chorus_door.json
-15a9cd1d72eee6972659155d461f428fa1f862d0 data\durtleminer\loot_table\blocks\chorus_trapdoor.json
 73e680fcb1dc01ba1b79c9391f237e276dc89d2c data\durtleminer\loot_table\blocks\chorus_planks.json
+15a9cd1d72eee6972659155d461f428fa1f862d0 data\durtleminer\loot_table\blocks\chorus_trapdoor.json
 5d413a565f76b6f331d1c940d01fc2d21843261b data\durtleminer\loot_table\blocks\chorus_pressure_plate.json
 59711554b5c545d31822d515d95ecd553171297b data\durtleminer\loot_table\blocks\chorus_stairs.json
 882551fee24b9f619b7bfd01bc162393694bdf21 data\durtleminer\loot_table\blocks\chorus_button.json

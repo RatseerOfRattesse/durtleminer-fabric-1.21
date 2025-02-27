@@ -1,6 +1,8 @@
 package net.ratseerofrattesse.durtleminer;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.item.Items;
 import net.ratseerofrattesse.durtleminer.block.ModBlocks;
 import net.ratseerofrattesse.durtleminer.item.ModItems;
 import net.ratseerofrattesse.durtleminer.sound.ModSounds;
@@ -17,5 +19,7 @@ public class Durtleminer implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModSounds.registerModItems();
+
+		FuelRegistry.INSTANCE.add(Items.AXOLOTL_BUCKET, 16000);
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:axolotl_bucket"
+  },
+  "result": {
+    "id": "durtleminer:cooked_axolotl_bucket"
+  }
+}

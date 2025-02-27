@@ -45,6 +45,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.LESSER_FIRMAMENT_TEMPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.LESSER_FIRMAMENT_PICKAXE, Models.GENERATED);
 
+        //Cooked Axolotl
+        itemModelGenerator.register(ModItems.COOKED_AXOLOTL_BUCKET, Models.GENERATED);
+
         //Trial keys
         itemModelGenerator.register(ModItems.ENDER_TRIAL_KEY, Models.GENERATED);
         itemModelGenerator.register(ModItems.OMINOUS_ENDER_TRIAL_KEY, Models.GENERATED);
